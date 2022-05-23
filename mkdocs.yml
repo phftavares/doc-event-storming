@@ -1,0 +1,5 @@
+site_name: Event Storming
+nav:
+  - index.md
+theme:
+  name: material
