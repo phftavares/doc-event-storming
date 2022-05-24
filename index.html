@@ -624,14 +624,14 @@
 <h3 id="definindo-microservices">Definindo microservices</h3>
 <p>Nessa etapa usamos os contextos limitados e os agregados para entender os <em>microservices</em> necessários. Normalmente, um agregado dentro de um contexto limitado representa um ou mais <em>microservices</em>.</p>
 <p><img alt="Definindo microservices" src="images/steps/step_6.png" title="Definindo microservices" /></p>
-<p>Nesse exemplo, o contexto limitado do <strong>pedido capturado</strong> terá <em>microservices</em> relacionados ao pedido e ao inventário. Podemos notar que o pedido também existe no contexto limitado do <strong>carrinho</strong> de compras e no contexto limitado do <strong>atendimento de pedido</strong>. Não há problema, pois indica que são <em>microservices</em> diferentes, pois estão em diferentes contextos limitados. Ambos podem estar fazendo coisas relacionadas a um pedido, mas o que estão fazendo é diferente. Em um aplicativo monolítico, eles seriam agrupados criando acoplamento, mas com uma arquitetura de <em>microservices</em>, os separamos para independência.</p>
+<p>Nesse exemplo, o contexto limitado do <strong>ORDER CAPTURED</strong> terá <em>microservices</em> relacionados ao pedido e ao inventário. Podemos notar que o pedido também existe no contexto limitado do <strong>SHOPPING CART</strong> de compras e no contexto limitado do <strong>ORDER FULFILLMENT</strong>. Não há problema, pois indica que são <em>microservices</em> diferentes, pois estão em diferentes contextos limitados. Ambos podem estar fazendo coisas relacionadas a um pedido, mas o que estão fazendo é diferente. Em um aplicativo monolítico, eles seriam agrupados criando acoplamento, mas com uma arquitetura de <em>microservices</em>, os separamos para independência.</p>
 
   <hr>
 <div class="md-source-file">
   <small>
     
       Last update:
-      2022-05-23
+      2022-05-24
     
   </small>
 </div>
