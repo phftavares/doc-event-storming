@@ -1,5 +1,5 @@
 site_name: Event Storming
-repo_url: https://github.com/phftavares/event-storming
+repo_url: https://github.com/phftavares/doc-event-storming
 repo_name: phftavares/event-storming
 theme:
   name: material
